@@ -1,0 +1,46 @@
+.parent{
+    border: 2px solid black;
+    border-bottom: none;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 100px;
+}
+.child{
+    width: 320px;
+    height: 40px;
+}
+
+
+.child3{
+    position: fixed;
+    background-color: yellow;
+    width: 600px;
+    top: 236px;
+    left: 10px;
+   
+}
+.child4{
+    position: absolute;
+    background-color: blue;
+    width: 400px;
+    top: 270px;
+
+}
+.child1{
+   
+    position: absolute;
+     background-color: pink;
+     height: 500px;
+     width: 50px;
+     left:150px ;
+     
+ }
+ .child2{
+    position: absolute;
+     background-color: black;
+     width: 250px;
+     top: 100px;
+     left: 150px;
+ 
+ }
